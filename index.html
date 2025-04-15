@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title> Requisitos </title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand';
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f5;
+      color: #4b004b;
+    }
+
+    nav {
+      background-color: #ffb6c1;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #4b004b;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: none;
+      color: #c71585;
+      transition: 0.3s;
+    }
+
+    section {
+      padding: 30px 20px;
+      border-bottom: 1px solid #ffc0cb;
+    }
+
+    h2 {
+      color: #c71585;
+    }
+
+    
+    footer {
+      background-color: #ffe4e1;
+      color: #4b004b;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+    }
+
+    div {
+      background-color: #fffafc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+      margin: 10px auto;
+      max-width: 800px;
+    }
+
+    img.hello-kitty {
+      width: 80px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    
+  </style>
+  
+</head>
+<body>
+
+ 
+  <nav>
+    <a href="#funcionais"><img src="https://pbs.twimg.com/media/FbjFOaIWAAEvrkG.png" class="hello-kitty"> Requisitos Funcionais ౨ৎ⋆˚｡⋆ </a>
+    <a href="#naofuncionais"><img src="https://i.pinimg.com/736x/a0/74/c7/a074c71043d8d8c8a57ed469f9b14a0b.jpg" class="hello-kitty"> Requisitos Não Funcionais ౨ৎ⋆˚｡⋆ </a>
+    <a href="#inversos"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOxT7L2SCXQpkE62S-_tz9WrEQWzo3zLWUX83DFgvvf_CgkIVSUVDQADuuDWATNN1v5w&usqp=CAU" class="hello-kitty"> Requisitos Inversos ౨ৎ⋆˚｡⋆</a>
+  </nav>
+
+ 
+  <section id="funcionais">
+      
+    <div>
+      <h2> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OIQWTK4IMAhyftOtPyUwG7VnUSs-ovl6njMBDgowKUc82yrblP2p-a7Annwx-0dAYR8&usqp=CAU" class="hello-kitty">Requisitos Funcionais ༊*·˚</h2>
+      <ol>
+        <li>O sistema deve ser de fácil acesso.</li>
+        <li>O sistema deve mostrar os livros disponíveis e não disponíveis.</li>
+        <li>O sistema deve notificar o usuário a data da devolução dos livros.</li>
+        <li>O sistema deve disponibilizar livros digitais.</li>
+        <li>O sistema deve recomendar livros baseado nos que o usário ja leu.</li>
+        <li>O sistema deve ter um ranking dos livros mais lidos pelos alunos.</li>
+        <li>O sistema deve reservar um exemplar antecipadamente.</li>
+        <li>O sistema deve ter um espaço para discussões sobre os livros.</li>
+        <li>O sistema deve permitir que os professores indiquem leituras personalizadas.</li>
+        <li>O sistema deve permitir que os professores acompanhem o progresso dos alunos.</li>
+        <li>O sistema deve registrar quais livros cada aluno está lendo.</li>
+        <li>O sistema deve permitir anexar arquivos extras aos livros digitais.</li>
+        <li>O sistema deve ter um painel administrativo com visualização dos dados gerais.</li>
+        <li>O sistema deve permitir reservar exemplares físicos.</li>
+        <li>O sistema deve exibir estatisticas de uso.</li>
+        <li>O sistema deve disponibilizar filtros para busca.</li>
+      </ol>
+    </div>
+    
+  </section>
+
+  <section id="naofuncionais">
+      
+    <div>
+      <h2> <img src="https://i.pinimg.com/736x/03/66/5f/03665f1f284c136d1b1b1f77a40df122.jpg"  class="hello-kitty"> Requisitos Não Funcionais ༊*·˚ </h2>
+      <ol>
+        <li>O período de devolução dos livros deve ser de 25 dias .</li>
+        <li>Os alunos podem pegar no máximo 3 livros. </li>
+        <li>O cadastro dos usuários devem ser via e-mail institucional.</li>
+        <li>A interface deve ser intuitiva e amigável.</li>
+        <li>As informações devem ser apresentadas de forma clara e organizada.</li>
+        <li>A plataforma deve funcionar 24h.</li>
+        <li>Os logins devem ser diferenciados para alunos, professores e administradores.</li>
+        <li>O tempo de resposta do sistema para ações comuns deve ser inferior a 2s.</li>
+        <li>O backup de dados deve ocorrer automaticamente diariamente. </li>
+        <li>A plataforma deve ser acessivel de diferentes dispositivos.</li>
+        <li>A plataforma deve ser fácil de usar.</li>
+        
+      </ol>
+    </div>
+    
+  </section>
+
+  <section id="inversos">
+      
+    <div>
+      <h2> <img src="https://i.pinimg.com/736x/cc/82/12/cc82128aaa8e1387b665684dd5e63b21.jpg"  class="hello-kitty"> Requisitos Inverso ༊*·˚</h2>
+      <ol>
+        <li>O sistema não deve permitir acesso sem autenticação.</li>
+        <li>O sistema não permite que pessoas externas o acessem.</li>
+        <li>O sistema não permite que alunos visualizem estatísticas administrativas.</li>
+        <li>O sistema não deve exibir livros que não estão disponíveis</li>
+        <li>O sistema não permite a reserva de mais de 3 livros por vez.</li>
+        <li>O sistema não permite a reserva de livros ja reservados.</li>
+        <li>O sistema não deve recomendar livros aleatoriamente sem considerar o interesse do usuário.</li>
+      </ol>
+    </div>
+    
+  </section>
+
+  
+  <footer>
+        Emanoel, Izabelly, Luckyan, Romanna
+  </footer>
+
+</body>
+</html>
